@@ -58,7 +58,7 @@ export const PassageTagsDialog: React.FC<PassageTagsDialogProps> = props => {
 							onChangeColor={color => handleChangeColor(tag, color)}
 							onChangeName={newName => handleChangeTagName(tag, newName)}
 							onDelete={() => {
-								dispatch(deleteStoryTag(story, tag));
+								dispatch(deleteStoryTag(story, tag), t('undoChange.deleteTag'));
 							}}
 						/>
 					))

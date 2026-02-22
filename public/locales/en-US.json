@@ -439,6 +439,7 @@
 	"undoChange": {
 		"addTag": "Add Tag",
 		"changeTagColor": "Change Tag Color",
+		"deleteTag": "Delete Tag",
 		"newPassage": "New Passage",
 		"deletePassage": "Delete Passage",
 		"deletePassages": "Delete Passages",
